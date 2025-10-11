@@ -40,6 +40,7 @@ public class CollectionsUI : MonoBehaviour
             collectionButton.transform.SetParent(buttonHolder);
 
             collectionButton.transform.localScale = Vector3.one;
+            collectionButton.transform.localPosition = new Vector3(collectionButton.transform.localPosition.x, collectionButton.transform.localPosition.y, 0f);
 
             collectionButton.onClick.AddListener(() => SetCollection(collection.name));
 
@@ -131,8 +132,8 @@ public class CollectionsUI : MonoBehaviour
         GameObject pieceModel = Instantiate(currentPiece.pieceObject);
 
         pieceModel.transform.SetParent(pieceDisplayManager.pieceModelHolder.transform);
-        pieceModel.transform.localPosition = Vector3.zero;
-        pieceModel.transform.localScale = new Vector3(200, 200, 200);
+        pieceModel.transform.localPosition = new Vector3(30f, 6f, 65f);
+        pieceModel.transform.localScale = new Vector3(80f, 80f, 80f);
         pieceModel.layer = 5;
 
         pieceModel.AddComponent<Animator>();
@@ -144,7 +145,7 @@ public class CollectionsUI : MonoBehaviour
 
         piecePage.transform.SetParent(singleCollectionPage.transform);
 
-        piecePage.transform.localPosition = new Vector3(-475, -12.5f, 0f);
+        piecePage.transform.localPosition = new Vector3(-190, -5f, 0f);
         piecePage.transform.localScale = Vector3.one;
 
         piecePage.gameObject.SetActive(true);
