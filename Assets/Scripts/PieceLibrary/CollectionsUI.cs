@@ -208,7 +208,7 @@ public class CollectionsUI : MonoBehaviour
                 switch (element)
                 {
                     case Elements.CanMove:
-                        currentPDM.pieceMoveDiagram.transform.GetComponentsInChildren<Image>()[imgCount].color = Color.gray;
+                        currentPDM.pieceMoveDiagram.transform.GetComponentsInChildren<Image>()[imgCount].color = Color.black;
                         break;
                     case Elements.CantMove:
                         currentPDM.pieceMoveDiagram.transform.GetComponentsInChildren<Image>()[imgCount].color = Color.green;
@@ -217,7 +217,7 @@ public class CollectionsUI : MonoBehaviour
                         currentPDM.pieceMoveDiagram.transform.GetComponentsInChildren<Image>()[imgCount].color = Color.yellow;
                         break;
                     default:
-                        currentPDM.pieceMoveDiagram.transform.GetComponentsInChildren<Image>()[imgCount].color = Color.black;
+                        currentPDM.pieceMoveDiagram.transform.GetComponentsInChildren<Image>()[imgCount].color = Color.red;
                         break;
                 }
                 imgCount++;
