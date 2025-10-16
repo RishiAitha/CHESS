@@ -10654,7 +10654,7 @@ MonoBehaviour:
   singleCollectionPagePrefab: {fileID: 210600623767681711, guid: 9bd1d42273333be4da2765d3daac2844, type: 3}
   pieceInfoDisplayPrefab: {fileID: 3976704487914315975, guid: afe65a39ae6cf9649beeb38e9d13a1ba, type: 3}
   buttonHolder: {fileID: 544785953}
-  mainCanvas: {fileID: 1070168276}
+  parent: {fileID: 1070168276}
   allCollectionsPage: {fileID: 1404616182}
   pieceAnimator: {fileID: 9100000, guid: 94b5716444628884a850ab7cd4d36f18, type: 2}
   collections:
@@ -10670,10 +10670,8 @@ MonoBehaviour:
       materialValue: 1
       description: hey, I'm a little pawn, i can move forward. hopefully i can help
         out!
-      abilityName: en passant
-      abilityDescription: this is what happens when people get bored and make up
-        rules.
       pieceObject: {fileID: 7936696709198321180, guid: 4107ab986cbf67541b9b39c057e0062e, type: 3}
+      pieceData: {fileID: 11400000, guid: d5683304349f355418e6dc887754f315, type: 2}
     - blackIcon: {fileID: 21300000, guid: acd8ff07ff6662e4a95de4444d5854a5, type: 3}
       whiteIcon: {fileID: 21300000, guid: db1d3268db33746478da4e06a6494b27, type: 3}
       name: Rook
@@ -10681,9 +10679,8 @@ MonoBehaviour:
       materialValue: 5
       description: i like moving up and down, no diagonals for me. I really hate
         the bishop
-      abilityName: idk
-      abilityDescription: i guess im useful for checkmate? nothing special here
       pieceObject: {fileID: 1299729678981032934, guid: 2a6dce7b1ed90dc409ccc3fcf8f1e3f7, type: 3}
+      pieceData: {fileID: 11400000, guid: c952d891b52a2b044a5404e7b1300faa, type: 2}
   - name: Warfare
     icons:
     - {fileID: 0}
@@ -10695,18 +10692,16 @@ MonoBehaviour:
       tagLine: yo!
       materialValue: 0
       description: hey
-      abilityName: 
-      abilityDescription: 
       pieceObject: {fileID: 0}
+      pieceData: {fileID: 0}
     - blackIcon: {fileID: 0}
       whiteIcon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
       name: Rook
       tagLine: no :(
       materialValue: 0
       description: bye
-      abilityName: 
-      abilityDescription: 
       pieceObject: {fileID: 0}
+      pieceData: {fileID: 0}
   - name: Memes
     icons:
     - {fileID: 0}
@@ -10718,18 +10713,16 @@ MonoBehaviour:
       tagLine: yo!
       materialValue: 0
       description: hey
-      abilityName: 
-      abilityDescription: 
       pieceObject: {fileID: 0}
+      pieceData: {fileID: 0}
     - blackIcon: {fileID: 0}
       whiteIcon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
       name: Rook
       tagLine: no :(
       materialValue: 0
       description: bye
-      abilityName: 
-      abilityDescription: 
       pieceObject: {fileID: 0}
+      pieceData: {fileID: 0}
   - name: Animals
     icons:
     - {fileID: 0}
@@ -10741,18 +10734,16 @@ MonoBehaviour:
       tagLine: yo!
       materialValue: 0
       description: hey
-      abilityName: 
-      abilityDescription: 
       pieceObject: {fileID: 0}
+      pieceData: {fileID: 0}
     - blackIcon: {fileID: 0}
       whiteIcon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
       name: Rook
       tagLine: no :(
       materialValue: 0
       description: bye
-      abilityName: 
-      abilityDescription: 
       pieceObject: {fileID: 0}
+      pieceData: {fileID: 0}
   - name: Animals
     icons:
     - {fileID: 0}
@@ -10764,18 +10755,16 @@ MonoBehaviour:
       tagLine: yo!
       materialValue: 0
       description: hey
-      abilityName: 
-      abilityDescription: 
       pieceObject: {fileID: 0}
+      pieceData: {fileID: 0}
     - blackIcon: {fileID: 0}
       whiteIcon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
       name: Rook
       tagLine: no :(
       materialValue: 0
       description: bye
-      abilityName: 
-      abilityDescription: 
       pieceObject: {fileID: 0}
+      pieceData: {fileID: 0}
   - name: Animals
     icons:
     - {fileID: 0}
@@ -10787,18 +10776,16 @@ MonoBehaviour:
       tagLine: yo!
       materialValue: 0
       description: hey
-      abilityName: 
-      abilityDescription: 
       pieceObject: {fileID: 0}
+      pieceData: {fileID: 0}
     - blackIcon: {fileID: 0}
       whiteIcon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
       name: Rook
       tagLine: no :(
       materialValue: 0
       description: bye
-      abilityName: 
-      abilityDescription: 
       pieceObject: {fileID: 0}
+      pieceData: {fileID: 0}
   - name: Animals
     icons:
     - {fileID: 0}
@@ -10810,18 +10797,16 @@ MonoBehaviour:
       tagLine: yo!
       materialValue: 0
       description: hey
-      abilityName: 
-      abilityDescription: 
       pieceObject: {fileID: 0}
+      pieceData: {fileID: 0}
     - blackIcon: {fileID: 0}
       whiteIcon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
       name: Rook
       tagLine: no :(
       materialValue: 0
       description: bye
-      abilityName: 
-      abilityDescription: 
       pieceObject: {fileID: 0}
+      pieceData: {fileID: 0}
   whitePieceMaterial: {fileID: 2100000, guid: 8bbe2057e4efc4b46b3cdac15135e3bf, type: 2}
   blackPieceMaterial: {fileID: 2100000, guid: 2b230366d48942b498f383152060ef0a, type: 2}
 --- !u!224 &1327577714
